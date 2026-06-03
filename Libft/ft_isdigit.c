@@ -1,28 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   isalnum.c                                          :+:      :+:    :+:   */
+/*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: thialima <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/05/28 14:45:29 by thialima          #+#    #+#             */
-/*   Updated: 2026/05/28 15:01:41 by thialima         ###   ########.fr       */
+/*   Created: 2026/05/28 14:33:43 by thialima          #+#    #+#             */
+/*   Updated: 2026/06/03 14:54:27 by thialima         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
-int	ft_isalnum(int c)
+int	ft_isdigit(int c)
 {
-	return ((c >= 'a' && c <= 'z')
-		|| (c >= 'A' && c <= 'Z')
-		|| (c >= 0 && c <= 9));
+	return ((c >= 1 && c <= 9));
 }
 /*
 int main (void)
 
 {
-	printf ("%d",ft_isalnum(7));
-	return (0);
+	printf ("%d", ft_isdigit('A'));
 }
 */

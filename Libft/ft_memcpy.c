@@ -1,28 +1,42 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   isalnum.c                                          :+:      :+:    :+:   */
+/*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: thialima <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/05/28 14:45:29 by thialima          #+#    #+#             */
-/*   Updated: 2026/05/28 15:01:41 by thialima         ###   ########.fr       */
+/*   Created: 2026/06/03 14:46:25 by thialima          #+#    #+#             */
+/*   Updated: 2026/06/03 15:46:12 by thialima         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
-int	ft_isalnum(int c)
-{
-	return ((c >= 'a' && c <= 'z')
-		|| (c >= 'A' && c <= 'Z')
-		|| (c >= 0 && c <= 9));
-}
-/*
-int main (void)
+void	*ft_memcpy(void *dest, const void *src, size_t n)
 
 {
-	printf ("%d",ft_isalnum(7));
+	unsigned char	*p;
+	unsigned char	*o;
+	size_t			i;
+
+	p = (unsigned char *) dest;
+	o = (unsigned char *) src;
+	i = 0;
+	while (i < n)
+	{
+		p[i] = o[i];
+		i++;
+	}
+	return (dest);
+}
+
+int main (void)
+
+{	
+	char	dest[10];
+	char	*src = "cinco";
+	ft_memcpy(dest,src,3);
+	printf ("\n%s",dest);
 	return (0);
 }
-*/
+

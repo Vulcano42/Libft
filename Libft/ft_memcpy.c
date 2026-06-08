@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: thialima <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: thialima <thialima@student.42.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/06/03 14:46:25 by thialima          #+#    #+#             */
-/*   Updated: 2026/06/03 15:46:12 by thialima         ###   ########.fr       */
+/*   Created: 2026/06/08 18:32:48 by thialima          #+#    #+#             */
+/*   Updated: 2026/06/08 18:32:57 by thialima         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-
+/*
 int main (void)
 
 {	
@@ -39,4 +39,4 @@ int main (void)
 	printf ("\n%s",dest);
 	return (0);
 }
-
+*/

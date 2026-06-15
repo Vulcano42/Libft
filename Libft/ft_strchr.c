@@ -1,28 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_toupper.c                                       :+:      :+:    :+:   */
+/*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: thialima <thialima@student.42.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/06/13 12:47:28 by thialima          #+#    #+#             */
-/*   Updated: 2026/06/14 21:40:29 by thialima         ###   ########.fr       */
+/*   Created: 2026/06/14 21:46:49 by thialima          #+#    #+#             */
+/*   Updated: 2026/06/15 01:50:19 by thialima         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
-int	ft_toupper(int c)
+char	*ft_strchr(const char *s, int c)
 
 {
-	if (c >= 'a' && c <= 'z')
-		return (c -= 32);
-	return (c);
+	while (*s)
+	{
+		if (*s == (char) c)
+			return ((char *) s);
+		s++;
+	}
+	if (*s == (char)c)
+		return ((char *) s);
+	return (NULL);
 }
-/*
- int main (void)
-
-{
-	printf ("%c",ft_toupper('a'));
-}
-*/

@@ -1,38 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strchr.c                                        :+:      :+:    :+:   */
+/*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: thialima <thialima@student.42.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/06/14 21:46:49 by thialima          #+#    #+#             */
-/*   Updated: 2026/06/14 23:39:37 by thialima         ###   ########.fr       */
+/*   Created: 2026/06/15 19:17:00 by thialima          #+#    #+#             */
+/*   Updated: 2026/06/15 21:01:41 by thialima         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
-char *ft_strchr (const char *s, int c)
+void	*ft_memchr(const void *s, int c, size_t n)
 
 {
-	char	*str;
-	size_t	i;
+	unsigned char	*p;
+	size_t			i;
 
 	i = 0;
-	while (*s)
+	p = (unsigned char *) s;
+	while (i < n)
 	{
-		if ((unsigned char *)s == (unsigned char*)c)
-			return ((char*)s);
+		if (p[i] == (unsigned char) c)
+			return ((void *) &p[i]);
+		i++;
 	}
-
-	return(NULL);
-}
-
-int main (void)
-
-{
-	const char string[6] = "banana";
-
-	printf ("s", ft_strchr(string,'a'));
-	return(0);
+	return (NULL);
 }

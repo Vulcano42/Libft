@@ -6,13 +6,13 @@
 /*   By: thialima <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/28 15:43:45 by thialima          #+#    #+#             */
-/*   Updated: 2026/06/03 14:49:14 by thialima         ###   ########.fr       */
+/*   Updated: 2026/06/21 23:16:02 by thialima         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
-size_t	ft_strlen(char *str)
+size_t	ft_strlen(const char *str)
 
 {
 	size_t	i;

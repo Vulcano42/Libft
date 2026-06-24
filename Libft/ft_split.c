@@ -6,11 +6,11 @@
 /*   By: thialima <thialima@student.42.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/23 17:22:16 by thialima          #+#    #+#             */
-/*   Updated: 2026/06/23 19:13:53 by thialima         ###   ########.fr       */
+/*   Updated: 2026/06/24 07:28:50 by thialima         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 static int	ft_count_words(const char *s, char c)
 {

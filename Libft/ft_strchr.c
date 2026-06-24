@@ -6,11 +6,11 @@
 /*   By: thialima <thialima@student.42.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/14 21:46:49 by thialima          #+#    #+#             */
-/*   Updated: 2026/06/15 01:50:19 by thialima         ###   ########.fr       */
+/*   Updated: 2026/06/24 06:32:08 by thialima         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "libft.h"
 
 char	*ft_strchr(const char *s, int c)
 

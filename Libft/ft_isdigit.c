@@ -6,20 +6,13 @@
 /*   By: thialima <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/28 14:33:43 by thialima          #+#    #+#             */
-/*   Updated: 2026/06/23 20:39:54 by thialima         ###   ########.fr       */
+/*   Updated: 2026/06/24 06:21:41 by thialima         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "stdio.h"
 
 int	ft_isdigit(int c)
 {
 	return ((c >= '0' && c <= '9'));
 }
-/*
-int main (void)
-
-{
-	printf ("%d", ft_isdigit('A'));
-}
-*/

@@ -6,22 +6,14 @@
 /*   By: thialima <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/28 15:20:09 by thialima          #+#    #+#             */
-/*   Updated: 2026/06/03 14:50:54 by thialima         ###   ########.fr       */
+/*   Updated: 2026/06/24 06:22:58 by thialima         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "libft.h"
 
 int	ft_isascii(int n)
 
 {
 	return (n >= 0 && n <= 127);
 }
-
-/*
-int main (void)
-
-{
-	printf ("%d",ft_isascii(200));
-}
-*/

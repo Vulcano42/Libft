@@ -6,11 +6,11 @@
 /*   By: thialima <thialima@student.42.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/23 04:40:10 by thialima          #+#    #+#             */
-/*   Updated: 2026/06/23 05:59:53 by thialima         ###   ########.fr       */
+/*   Updated: 2026/06/24 07:28:23 by thialima         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 void	ft_putnbr_fd(int n, int fd)
 

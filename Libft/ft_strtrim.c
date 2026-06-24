@@ -6,11 +6,11 @@
 /*   By: thialima <thialima@student.42.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/23 03:31:47 by thialima          #+#    #+#             */
-/*   Updated: 2026/06/23 03:58:30 by thialima         ###   ########.fr       */
+/*   Updated: 2026/06/24 06:51:10 by thialima         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <Libft.h>
+#include "libft.h"
 
 char	*ft_strtrim(char const *s1, char const *set)
 

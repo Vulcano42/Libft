@@ -6,11 +6,11 @@
 /*   By: thialima <thialima@student.42.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/15 18:58:33 by thialima          #+#    #+#             */
-/*   Updated: 2026/06/15 19:16:30 by thialima         ###   ########.fr       */
+/*   Updated: 2026/06/24 07:32:04 by thialima         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "libft.h"
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 

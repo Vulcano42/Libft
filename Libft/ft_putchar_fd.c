@@ -6,12 +6,11 @@
 /*   By: thialima <thialima@student.42.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/23 05:07:24 by thialima          #+#    #+#             */
-/*   Updated: 2026/06/23 05:20:16 by thialima         ###   ########.fr       */
+/*   Updated: 2026/06/24 07:27:44 by thialima         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-#include <libft.h>
+#include "libft.h"
 
 void	ft_putchar_fd(char c, int fd)
 

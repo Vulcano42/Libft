@@ -6,12 +6,11 @@
 /*   By: thialima <thialima@student.42.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/19 16:38:47 by thialima          #+#    #+#             */
-/*   Updated: 2026/06/22 01:51:07 by thialima         ###   ########.fr       */
+/*   Updated: 2026/06/24 06:47:15 by thialima         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <stdlib.h>
+#include "libft.h"
 
 size_t	ft_strlen(const char	*str)
 

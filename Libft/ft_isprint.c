@@ -6,23 +6,14 @@
 /*   By: thialima <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/28 15:37:14 by thialima          #+#    #+#             */
-/*   Updated: 2026/06/03 14:50:13 by thialima         ###   ########.fr       */
+/*   Updated: 2026/06/24 06:23:37 by thialima         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "libft.h"
 
 int	ft_isprint(int c)
 
 {
 	return (c >= 32 && c <= 126);
 }
-
-/*
-int main (void)
-
-{
-	printf ("%d",ft_isprint('\n'));
-	return (0);
-}
-	*/

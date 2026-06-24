@@ -6,11 +6,11 @@
 /*   By: thialima <thialima@student.42.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/08 18:32:48 by thialima          #+#    #+#             */
-/*   Updated: 2026/06/08 18:32:57 by thialima         ###   ########.fr       */
+/*   Updated: 2026/06/24 06:26:48 by thialima         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "libft.h"
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 
@@ -29,14 +29,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-/*
-int main (void)
-
-{	
-	char	dest[10];
-	char	*src = "cinco";
-	ft_memcpy(dest,src,3);
-	printf ("\n%s",dest);
-	return (0);
-}
-*/

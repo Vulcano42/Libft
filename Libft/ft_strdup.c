@@ -6,12 +6,11 @@
 /*   By: thialima <thialima@student.42.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/18 15:46:11 by thialima          #+#    #+#             */
-/*   Updated: 2026/06/19 02:08:42 by thialima         ###   ########.fr       */
+/*   Updated: 2026/06/24 06:45:35 by thialima         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
-#include <stdio.h>
 
 char	*ft_strdup(const char *s)
 

@@ -6,12 +6,11 @@
 /*   By: thialima <thialima@student.42.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/10 13:59:42 by thialima          #+#    #+#             */
-/*   Updated: 2026/06/11 00:02:05 by thialima         ###   ########.fr       */
+/*   Updated: 2026/06/24 07:31:28 by thialima         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/*#include <libft.h>*/
-#include <stdio.h>
+#include "libft.h"
 
 size_t	ft_strlen(const char *str)
 
@@ -44,14 +43,3 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t dstsize)
 	dest[i] = '\0';
 	return (ft_strlen(src));
 }
-/*
-int main (void)
-
-{
-	char dest[10];
-	 char	*src = "cinco";
-
-	
-	printf("%d",ft_strlcpy(dest,src,5));
-}
-*/

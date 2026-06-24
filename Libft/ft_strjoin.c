@@ -6,11 +6,11 @@
 /*   By: thialima <thialima@student.42.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/21 22:49:53 by thialima          #+#    #+#             */
-/*   Updated: 2026/06/22 01:52:31 by thialima         ###   ########.fr       */
+/*   Updated: 2026/06/24 06:49:16 by thialima         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "libft.h"
 #include <stdlib.h>
 
 char	*ft_strjoin(const char *s1, const char *s2)

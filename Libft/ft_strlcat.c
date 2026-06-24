@@ -6,12 +6,11 @@
 /*   By: thialima <thialima@student.42.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/10 23:55:12 by thialima          #+#    #+#             */
-/*   Updated: 2026/06/12 01:42:02 by thialima         ###   ########.fr       */
+/*   Updated: 2026/06/24 07:31:03 by thialima         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/*#include <libft.h>*/
-#include <stdio.h>
+#include "libft.h"
 
 size_t	ft_strlcat(char *dest, const char *src, size_t dstsize)
 

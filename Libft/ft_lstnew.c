@@ -1,25 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isdigit.c                                       :+:      :+:    :+:   */
+/*   ft_lstnew.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: thialima <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: thialima <thialima@student.42.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/05/28 14:33:43 by thialima          #+#    #+#             */
-/*   Updated: 2026/06/23 20:39:54 by thialima         ###   ########.fr       */
+/*   Created: 2026/06/23 20:16:09 by thialima          #+#    #+#             */
+/*   Updated: 2026/06/23 20:16:20 by thialima         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "libft.h"
 
-int	ft_isdigit(int c)
+t_list	*ft_lstnew(void *content)
 {
-	return ((c >= '0' && c <= '9'));
-}
-/*
-int main (void)
+	t_list	*node;
 
-{
-	printf ("%d", ft_isdigit('A'));
+	node = (t_list *)malloc(sizeof(t_list));
+	if (!node)
+		return (NULL);
+	node->content = content;
+	node->next = NULL;
+	return (node);
 }
-*/

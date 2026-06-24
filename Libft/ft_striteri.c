@@ -1,25 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isdigit.c                                       :+:      :+:    :+:   */
+/*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: thialima <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: thialima <thialima@student.42.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/05/28 14:33:43 by thialima          #+#    #+#             */
-/*   Updated: 2026/06/23 20:39:54 by thialima         ###   ########.fr       */
+/*   Created: 2026/06/23 20:03:27 by thialima          #+#    #+#             */
+/*   Updated: 2026/06/23 20:03:53 by thialima         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-
-int	ft_isdigit(int c)
+void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 {
-	return ((c >= '0' && c <= '9'));
-}
-/*
-int main (void)
+	unsigned int	i;
 
-{
-	printf ("%d", ft_isdigit('A'));
+	i = 0;
+	if (!s || !f)
+		return ;
+	while (s[i])
+	{
+		f(i, &s[i]);
+		i++;
+	}
 }
-*/

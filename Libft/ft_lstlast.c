@@ -1,25 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isdigit.c                                       :+:      :+:    :+:   */
+/*   ft_lstlast.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: thialima <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: thialima <thialima@student.42.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/05/28 14:33:43 by thialima          #+#    #+#             */
-/*   Updated: 2026/06/23 20:39:54 by thialima         ###   ########.fr       */
+/*   Created: 2026/06/23 20:19:56 by thialima          #+#    #+#             */
+/*   Updated: 2026/06/23 20:20:28 by thialima         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "libft.h"
 
-int	ft_isdigit(int c)
-{
-	return ((c >= '0' && c <= '9'));
-}
-/*
-int main (void)
+t_list	*ft_lstlast(t_list *lst)
 
 {
-	printf ("%d", ft_isdigit('A'));
+	if (!lst)
+		return (NULL);
+	while (lst->next)
+		lst = lst->next;
+	return (lst);
 }
-*/
